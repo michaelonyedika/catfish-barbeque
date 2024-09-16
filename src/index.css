@@ -120,3 +120,20 @@ li span.active::before {
 .order p {
   margin: 20px auto;
 }
+
+@media (max-width: 600px) {
+  header .pizza-svg {
+    width: 50px; /* Adjust width for small screens */
+  }
+
+  /* pages */
+  .home h2 {
+    font-size: 1.5em;
+  }
+
+  .home button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border: 2px solid white;
+  }
+}

@@ -75,7 +75,7 @@ const Header = () => {
         animate="visible"
       >
         <Link to="/">
-          <h1 className=" text-xl font-bold md:text-2xl">CatFish Barbeque</h1>
+          <h1 className=" text-lg font-bold md:text-2xl">CatFish Barbeque</h1>
         </Link>
       </motion.div>
     </header>
